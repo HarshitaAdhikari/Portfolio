@@ -190,7 +190,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600\r
                   opacity-80 blur-sm`}),(0,j.jsx)(`div`,{className:`absolute -inset-[2px] rounded-full\r
                   bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600`}),(0,j.jsxs)(`div`,{className:`float-anim relative rounded-full p-[3px] bg-[#050810]\r
-                  group-hover/img:scale-[1.04] transition-transform duration-500 ease-out`,children:[(0,j.jsx)(`img`,{src:`./src/assets/image.png`,alt:`Harshita Adhikari`,className:`w-56 h-56 md:w-72 md:h-72 rounded-full object-cover shadow-2xl`}),(0,j.jsx)(`div`,{className:`absolute inset-0 rounded-full\r
+                  group-hover/img:scale-[1.04] transition-transform duration-500 ease-out`,children:[(0,j.jsx)(`img`,{src:`/image.png`,alt:`Harshita Adhikari`,className:`w-56 h-56 md:w-72 md:h-72 rounded-full object-cover shadow-2xl`}),(0,j.jsx)(`div`,{className:`absolute inset-0 rounded-full\r
                     bg-gradient-to-tr from-transparent via-white/5 to-transparent\r
                     pointer-events-none`})]}),(0,j.jsxs)(`div`,{className:`absolute -bottom-5 left-1/2 -translate-x-1/2\r
                   flex items-center gap-1.5 px-4 py-1.5 rounded-full\r
