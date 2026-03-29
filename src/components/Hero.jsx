@@ -422,7 +422,7 @@ const Home = () => {
                   group-hover/img:scale-[1.04] transition-transform duration-500 ease-out"
               >
                 <img
-                  src="./src/assets/image.png"
+                  src="/image.png"
                   alt="Harshita Adhikari"
                   className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover shadow-2xl"
                 />
