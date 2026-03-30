@@ -12,10 +12,9 @@ const FOOTER_LINKS = [
 ];
 
 const SOCIAL_LINKS = [
-  { icon: <FaGithub />, url: "https://github.com/yourusername", label: "GitHub" },
-  { icon: <FaLinkedin />, url: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-  { icon: <FaTwitter />, url: "https://twitter.com/yourusername", label: "Twitter" },
-  { icon: <FaInstagram />, url: "https://instagram.com/yourusername", label: "Instagram" },
+  { icon: <FaGithub />, url: "https://github.com/HarshitaAdhikari", label: "GitHub" },
+  { icon: <FaLinkedin />, url: "https://linkedin.com/harshita-adhikari", label: "LinkedIn" },
+  
   { icon: <HiOutlineMail />, url: "mailto:harshitaadhikari1234@mail.com", label: "Email" },
 ];
 
