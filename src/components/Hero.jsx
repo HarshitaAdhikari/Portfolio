@@ -6,8 +6,8 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiJavascript, SiTailwindcss, SiHtml5, SiGit } from "react-icons/si";
+import PROFILE_IMAGE from "../../public/image.png"
 
-const PROFILE_IMAGE = "/image.png";
 
 const SKILLS = [
   { label: "React JS",     icon: <FaReact     style={{ color: "#22d3ee" }} /> },
