@@ -236,10 +236,10 @@ export default function Navbar() {
       {isMobile && (
         <aside
           className={`
-            fixed top-0 right-0 h-screen w-[72px] z-50
-            bg-[rgba(8,12,26,0.4)] backdrop-blur-xl
+            fixed top-20 right-0 h-fit max-h-[470px] overflow-auto w-[72px] z-50
+            bg-[rgba(8,12,26,0.4)] backdrop-blur-xl rounded-2xl
             transition-transform duration-300 ease-[cubic-bezier(0.2,0.9,0.4,1.1)]
-            flex flex-col items-center pt-[86px] pb-7
+            flex flex-col items-center py-2
           `}
           style={{
             transform: isOpen ? "translateX(0)" : "translateX(100%)",
@@ -253,7 +253,7 @@ export default function Navbar() {
             }}
           />
 
-          <nav className="flex flex-col items-center gap-2 w-full flex-1">
+          <nav className="flex flex-col items-center gap-1 w-full flex-1">
             {NAV_LINKS.map((link, idx) => {
               const Icon = link.icon;
               return (
@@ -265,7 +265,7 @@ export default function Navbar() {
                 >
                   {({ isActive }) => (
                     <div
-                      className="flex flex-col items-center justify-center gap-1.5 py-2 w-full cursor-pointer relative transition-all duration-200"
+                      className="flex flex-col items-center justify-center gap-1.5 py-1 w-full cursor-pointer relative transition-all duration-200"
                       style={{
                         opacity: isOpen ? 1 : 0,
                         transform: isOpen ? "translateX(0)" : "translateX(20px)",
@@ -311,7 +311,7 @@ export default function Navbar() {
             })}
           </nav>
 
-          <a
+          {/* <a
             href="mailto:harshitaadhikari1234@mail.com"
             onClick={close}
             title="Contact me"
@@ -325,7 +325,7 @@ export default function Navbar() {
             }}
           >
             <HiOutlineMail />
-          </a>
+          </a> */}
         </aside>
       )}
     </>
