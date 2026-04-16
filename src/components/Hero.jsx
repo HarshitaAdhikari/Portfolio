@@ -25,7 +25,7 @@ const ROLES = [
 
 const SOCIALS = [
   { href: "https://github.com/HarshitaAdhikari",          icon: FaGithub,       label: "GitHub",   color: "#e2e8f0" },
-  { href: "https://linkedin.com/in/harshita-adhikari",    icon: FaLinkedin,     label: "LinkedIn", color: "#60a5fa" },
+  { href: "https://www.linkedin.com/in/harshita-adhikari-0b613133b",    icon: FaLinkedin,     label: "LinkedIn", color: "#60a5fa" },
   { href: "mailto:harshitaadhikari1234@mail.com",         icon: HiOutlineMail,  label: "Email",    color: "#22d3ee" },
 ];
 
