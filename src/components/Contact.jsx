@@ -56,7 +56,7 @@ export default function Contact() {
 
   const socialLinks = [
     { icon: <FaGithub />, name: "GitHub", url: "https://github.com/HarshitaAdhikari" },
-    { icon: <FaLinkedin />, name: "LinkedIn", url: "https://linkedin.com/harshita-adhikari " },
+    { icon: <FaLinkedin />, name: "LinkedIn", url: "https://www.linkedin.com/in/harshita-adhikari-0b613133b" },
   ];
 
   return (

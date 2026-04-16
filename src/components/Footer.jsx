@@ -13,7 +13,7 @@ const FOOTER_LINKS = [
 
 const SOCIAL_LINKS = [
   { icon: <FaGithub />, url: "https://github.com/HarshitaAdhikari", label: "GitHub" },
-  { icon: <FaLinkedin />, url: "https://linkedin.com/harshita-adhikari", label: "LinkedIn" },
+  { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/harshita-adhikari-0b613133b", label: "LinkedIn" },
   
   { icon: <HiOutlineMail />, url: "mailto:harshitaadhikari1234@mail.com", label: "Email" },
 ];
